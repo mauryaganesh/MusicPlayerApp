@@ -119,10 +119,4 @@ The app will be available at `http://localhost:3000` in your browser.
 
 ## Conclusion
 
-This project provides a basic understanding of how to build a music player using React. You can expand upon this foundation by adding more features such as user authentication, playlists, or integrating with external music APIs.
-
-Feel free to explore the code and customize it as you learn and experiment with React!
-
-```
-
-```
+This project provides a basic understanding of how to build a music player using React. Feel free to explore the code and customize it as you learn and experiment with React!
