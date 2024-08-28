@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #181818;
+  color: white;
+  overflow: hidden;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.song-list {
+  width: 30%;
+  overflow-y: auto;
+  background-color: #282828;
+}
+
+.song-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.song-item:hover {
+  background-color: #404040;
+}
+
+.cover {
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.song-name {
+  font-size: 16px;
+  margin: 0;
+}
+
+.artist {
+  font-size: 14px;
+  color: #b3b3b3;
+  margin: 0;
+}
+
+.player {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.player-cover {
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.player-details h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.player-details h3 {
+  margin: 5px 0 20px;
+  font-size: 18px;
+  color: #b3b3b3;
+}
+
+.player-controls button {
+  padding: 10px;
+  margin: 0 5px;
+  background-color: #1db954;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.player-controls button:hover {
+  background-color: #1ed760;
+}

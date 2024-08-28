@@ -1,0 +1,36 @@
+.icons {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+}
+
+.song {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 350px;
+}
+
+.song-name {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.artist-name {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.6;
+}
+
+.selected-song {
+  width: auto;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.08);
+}
